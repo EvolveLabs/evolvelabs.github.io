@@ -90,15 +90,9 @@ section.evolve-hq{
   color: #ffffff;
   text-align: center;
 }
-section.evolve-hq .intro-copy > p:first-child{
-  text-align: left;
-}
 
 section.evolve-arenas{
   text-align: center;
-}
-section.evolve-arenas .intro-copy p{
-  text-align: left;
 }
 
 .blocks{
@@ -130,6 +124,9 @@ section.evolve-arenas .intro-copy p{
 .site-footer{
   text-align: center;
   padding-top: 60px;
+}
+.site-footer p{
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 650px) {
@@ -179,6 +176,11 @@ section.evolve-arenas .intro-copy p{
 
 @media screen and (min-width: 960px) {
 
+  p{
+    font-size: 2.2rem;
+    line-height: 1.4em;
+  }
+
   .blocks{
     width: 920px;
   }
@@ -188,6 +190,9 @@ section.evolve-arenas .intro-copy p{
   }
   .block:first-child{
     margin-right: 40px;
+  }
+  .block__logo{
+    padding-bottom: 40px;
   }
 
 }
