@@ -1,0 +1,193 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #231f20;
+}
+
+p{
+  font-size: 1.8rem;
+  line-height: 1.4em;
+}
+img{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.red{
+  color: #d32f2f;
+}
+.centered{
+  text-align: center;
+}
+
+.wrap{
+  max-width: 560px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.site-header{
+  padding: 20px;
+  text-align: center;
+}
+.site-header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  display: inline-block;
+}
+.logo__img{
+  display: block;
+}
+
+.site-nav{
+  display: block;
+  margin: 0;
+  padding: 20px 0 0 0;
+  list-style-type: none;
+  clear: both;
+}
+.site-nav .site-nav__item{
+  display: inline-block;
+}
+.site-nav .site-nav__link{
+  display: block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 10px;
+  text-decoration: none;
+}
+.site-nav .site-nav__link:hover{
+  text-decoration: underline;
+}
+
+section{
+  padding: 40px 0;
+}
+section .logo{
+  padding-bottom: 20px;
+}
+
+.intro-copy{
+  padding-bottom: 40px;
+}
+
+section.evolve-hq{
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+section.evolve-hq .intro-copy > p:first-child{
+  text-align: left;
+}
+
+section.evolve-arenas{
+  text-align: center;
+}
+section.evolve-arenas .intro-copy p{
+  text-align: left;
+}
+
+.blocks{
+  padding: 20px;
+}
+.block{
+  background: #e2e2e2;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.block__logo{
+  padding-bottom: 20px;
+}
+.block p{
+  margin: 0;
+}
+
+.block--rocketeer{
+  background: #0b386c url("./images/rocketeer-bg.jpg");
+  color: #ffffff;
+}
+
+.block--blackflag{
+  background: #fbc926;
+  color: #000000;
+}
+
+.site-footer{
+  text-align: center;
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 650px) {
+
+  .site-header{
+    padding: 40px;
+  }
+  .site-header .logo{
+    float: left;
+  }
+
+  .site-nav{
+    float: right;
+    padding-top: 2px;
+    clear: none;
+  }
+  .site-nav .site-nav__link{
+    margin-left: 10px;
+  }
+
+  section{
+    padding: 100px 0;
+  }
+  section .logo{
+    padding-bottom: 80px;
+  }
+
+  .blocks{
+    width: 610px;
+    margin: 0 auto;
+  }
+  .blocks:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .block{
+    width: 275px;
+    height: 425px;
+    float: left;
+  }
+  .block:first-child{
+    margin-right: 20px;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+
+  .blocks{
+    width: 920px;
+  }
+  .block{
+    width: 420px;
+    height: 420px;
+  }
+  .block:first-child{
+    margin-right: 40px;
+  }
+
+}
