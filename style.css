@@ -165,7 +165,7 @@ section.evolve-arenas{
   }
   .block{
     width: 275px;
-    height: 425px;
+    height: 325px;
     float: left;
   }
   .block:first-child{
@@ -186,7 +186,7 @@ section.evolve-arenas{
   }
   .block{
     width: 420px;
-    height: 420px;
+    height: 340px;
   }
   .block:first-child{
     margin-right: 40px;
